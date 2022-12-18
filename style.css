@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     margin-top: 16px;
   }
-  
+
   button {
     background: radial-gradient(circle, rgba(240,230,140,1) 0%, rgba(187,96,33,0.9542191876750701) 100%);
     border-radius: 8px;
@@ -37,3 +37,33 @@ body {
     transition-timing-function: linear;
     margin-top: 0.6em;
   }
+  .word-guess {
+    width: 55vw;
+    height: 400px;
+  }
+  
+  @media screen and (max width: 504px); {
+    .large-font {
+        font-size: 2em;
+    }
+  }
+    
+  .large-font {
+    font-size: 2em;
+  }
+
+  .timer {
+    height: 240px;
+    padding: 10px;
+    background: #13293d;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .timer {
+    height: 200px;
+  }
+  .timer-text {
+    padding: 55px;
+  }
+ 
