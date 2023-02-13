@@ -9,7 +9,7 @@ var lose = document.querySelector(".lose");
 var timerElement = document.querySelector(".timer-count");
 //enabling the start button
 
-
+//need to add correct answers
 function init() {
     getWins();
     getlosses();
@@ -25,13 +25,13 @@ const questions = [
     {
         question: "Who was the sole Developer of 'Stardew Valley'?",
         choices: ['OpticMyth', 'ConcernedApe', 'DeveloperZ', 'Ninja'],
-        answer: 'a'
+        answer: 'ConcernedApe'
     },
 
     {
-        question: "What is the first letter in the alphabet?",
-        choices: ['a, b, c, z'],
-        answer: 'a'
+        question: "What house did Isaac live in?",
+        choices: ['A small house on a hill', 'a shack', 'homeless', 'A big house with a mill'],
+        answer: 'A small house on a hill'
 
     },
 ];
